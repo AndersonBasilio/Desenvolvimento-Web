@@ -1,2 +1,2 @@
 # HTML / CSS
- Repositorio criado para praticar e estudar HTML e CSS
+ Repositório criado para praticar e estudar HTML e CSS
