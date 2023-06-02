@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <h2>Produtos</h2>
+    <!--width é para definir a largura da tabela-->
+    <!--Usando width="100%" aumenta 100% o espaço do navegador.-->
+    <table border="2" width="100%"><!--Criando uma tabela e definindo a borda-->
+        <tr><!--Criando a linha da tabela-->
+            <th>Codigo</th><!--Colocando cabeçalho da tabela para deixar os dados principais em destque.-->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td><!--Colocando os dados na tabela.-->
+            <td>Computador</td>
+            <td>R$5.289,60</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>
+                <img src="HTML/imagens/iron-maiden-comics-2.jpg" width="150"><!--Colocando imagem dentro de uma tabela-->
+            </td>
+            <td>R$2.289,60</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td><a href="">Clique Aqui</a></td><!--Colocando link.-->
+            <td>R$2.500</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Placa de Video</td>
+            <td>R$3.189,60</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td><!--rowspan define a extensão da linha.-->
+            <td colspan="2">Cupom1 -R$10</td><!--colspan possibilita agrupar duas colnas.-->
+            
+        </tr>
+            <td colspan="2">Cupom2 -R$10</td>           
+        </tr>
+        </tr>
+            <td>Total:</td> 
+            <td></td>
+            <td>7.000,00</td>          
+        </tr>
+    </table>    
+    
+</body>
+</html>
