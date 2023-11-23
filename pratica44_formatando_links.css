@@ -1,0 +1,28 @@
+
+a {
+    padding: 5px 10px ;
+    margin-top: 10px;
+    text-decoration: None;
+}
+/*Links não Visitados */
+a:link {
+   color: #b9c941;
+}
+
+/*Links Visitados */
+a:visited {
+    color: red;
+}
+
+/* Links Hover, passa o cusor sobre o link */
+a:hover {
+    color: white;
+    background: #6d790f;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+
+a:active {
+    color: #e4f371;
+}
