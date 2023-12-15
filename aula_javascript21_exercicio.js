@@ -26,11 +26,11 @@ function soma(numero1, numero2){
 
 function subtracao(numero1, numero2){
     var subtracao = numero1 - numero2
-    document.write('O resultado é: ' + subtracao)
+    document.write('O resultado é: ' + subtracao);
 }
 var numero1 = prompt('Digite um número: ');
 var operacao = prompt('Escolha uma operação: ');
-var numero2 = prompt('Escolha outro número: ')
+var numero2 = prompt('Escolha outro número: ');
 
 numero1 = parseInt(numero1);
 numero2 = parseInt(numero2);
