@@ -1,3 +1,3 @@
 function acao(){
-    console.log('Evento Disparado.')
+    console.log('Evento Disparado.');
 }
