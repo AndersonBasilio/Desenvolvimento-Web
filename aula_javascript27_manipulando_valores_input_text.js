@@ -3,7 +3,7 @@ function distribuiCaracter(){
     var caracter = (document.getElementById('entrada').value);
     document.getElementById('entrada').value = '';
     //limpar os espaços em branco nas extremidades da string
-    caracter.trim()
+    caracter.trim();
 
     switch(caracter) {
         case '0':
