@@ -1,0 +1,44 @@
+/*Barra de Navegação horizontal*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 610px;
+    background: rgb(17, 163, 163) url(../HTML/imagens/fundo-horizontal.png);
+    float: left;
+}
+
+ul li {
+    
+    float: left;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*border-left: 1px solid rgb(16, 148, 148);*/
+    background: url(../HTML/imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a{
+    background: none;
+
+}
+
+ul a:hover{
+    line-height: 2em;
+    background: rgba(99, 214, 214, 0.575);
+    color: rgba(0, 255, 255, 0.918);
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+    line-height: 2em;
+    background: rgba(99, 214, 214, 0.575);
+    color: rgba(0, 255, 255, 0.918);
+}
