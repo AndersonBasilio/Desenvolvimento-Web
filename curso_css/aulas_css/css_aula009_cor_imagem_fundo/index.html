@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Cor e imagem de fundo</title>
+        <meta charset = "utf-8">
+        <style type="text/css">
+
+            body{
+                background-color: black;
+            }
+            /*
+            .fundo{
+                background-color: brown;
+                color:palevioletred;
+            }*/
+
+            body{
+                /*Colocando a imagem no fundo*/
+                background-image: url('imagem/background.avif');
+                
+                /* repeat-x ->
+                   repeat-y -> 
+                   no repeat ->
+                   repeat -> */
+                background-repeat:no-repeat ;
+
+                /* scrool
+                   fixed*/
+                background-attachment: fixed;
+                
+                /*Primeiro valor: left, center, rigth
+                  Segundo valor: top, center, bottom */
+                background-position:center top; 
+            }
+
+            .letras{
+                color: aliceblue;
+            }
+            
+            .h1{
+                color: azure;
+            }
+            .fundo{
+                background: blue url("imagem/background.avif") no-repeat scroll center;
+            }
+
+        </style>
+        
+    </head>
+
+        <body class="fundo">
+            <h1 class="h1">Conteúdo de Titulo 1</h1>
+            <p class="letras">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sint repellendus tempora rerum maxime, alias iusto nemo quod repellat et quam ipsum ea reiciendis, similique suscipit odio nobis commodi dolore.
+            </p>
+
+            <br><br><br><br><br><br><br><br><br><br>
+            <p class="letras">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolor veniam placeat cumque commodi aperiam maiores ab, nisi non vel perspiciatis dolores aspernatur laboriosam neque unde beatae quo sint voluptatibus.
+            </p>
+            
+
+        </body>
+</html>
