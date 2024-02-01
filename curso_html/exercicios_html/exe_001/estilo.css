@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid;
+    padding: 6px;
+    margin: 2px;
+}
+
+img {
+    width: 300px;
+}
+
+.centralizar {
+    text-align: center;
+}
