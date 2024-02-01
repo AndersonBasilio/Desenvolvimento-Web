@@ -1,0 +1,37 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.primeira_tabela{
+    width: 600px;
+    /*border-collapse: collapse; Desta forma tira a separação*/
+    /*border-collapse: separate; Desta forma a separação permanece*/
+    border-collapse: separate;  
+
+}
+
+th, td {
+    padding: 7px;  
+
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: rgb(231, 231, 138);
+}
+
+.alinhar_numeros {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: yellow;
+}
