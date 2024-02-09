@@ -45,8 +45,7 @@ input.submit {
     background: -o-linear-gradient(to bottom,  #faa600, #f68a00);
 
     /*Desta forma funciona em navegadores mais recentes */
-    background: linear-gradient(to bottom,  #faa600, #f68a00);
-    
+    background: linear-gradient(to bottom,  #faa600, #f68a00);  
  
 }
 
