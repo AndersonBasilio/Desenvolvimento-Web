@@ -30,6 +30,8 @@ body {
 
 #container {
     text-align: center;
+    padding-left: 30%;
+    margin-top: 200px;
 }
 
 .caixa {
