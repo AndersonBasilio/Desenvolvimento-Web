@@ -28,7 +28,8 @@ label {
     cursor: pointer;
 }
 
-input{ /*input [type="radio"]*/
+input{ 
+    /*input [type="radio"]*/
     width: 20em;
     padding: 0.5em;
 }
