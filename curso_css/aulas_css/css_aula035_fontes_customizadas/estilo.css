@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(175, 175, 17);
+}
+
+/*Desta forma customizamos as fontes*/
+@font-face {
+    font-family: "Madelinas";
+    src: url(../css_aula035_fontes_customizadas/fontes/MadelinaScript.woff);
+}
+
+#container h1{
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    color: green;
+    font-family: Madelinas ;
+    font-size: 5.8em;
+}
