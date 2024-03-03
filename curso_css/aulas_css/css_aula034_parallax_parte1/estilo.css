@@ -11,7 +11,7 @@ body, html {
 
 h3 {
     text-transform: uppercase;
-    color: #111;
+    color: #ee8309;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ p {
 
 .conteudo {
     color: #777;
-    background-color: white;
+    background-color: rgb(233, 193, 118);
     text-align: justify;
     padding: 50px 80px;
 }
@@ -85,4 +85,18 @@ p {
     letter-spacing: 5px;
     text-transform: uppercase;
     
+}
+
+#pegando_estrada {
+    background-color: #bec8cc;
+
+}
+
+#por_do_sol {
+    background: rgb(223, 169, 178);
+}
+
+#passeio_de_mar {
+    background: rgb(69, 143, 212);
+    color: white;
 }
