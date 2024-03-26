@@ -1,0 +1,57 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: #4187c9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 150px;
+}
+#caixa, #caixa2, h1{
+    padding-left: 45px;
+    color: white
+}
+
+#caixa, #caixa2 p {
+    padding-left: 15px;
+    margin: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+.arredondamento {
+    border-radius: 150px;
+}
+
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: #4187c9;
+    padding: 10px;
+    margin: 10px;
+    /*Desta forma que utilizamos para que navegadores mais antigos "Leiam"*/
+   -webkit-border-radius: 10px 50px 80px 100px; 
+   -moz-border-radius: 10px 50px 80px 100px;  
+    border-radius: 10px 50px 80px 100px;   
+}
+
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    /*Desta forma que utilizamos para que navegadores mais antigos "Leiam"*/
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /*Desta forma a caixa ira se manter com 300px independente do padding*/
+    background: #4187c9;  
+}
+
+#caixa3 h1 {
+    margin: -20px;
+}
+
+#caixa4{
+    width: 400px;
+    height: 300px;
+    background: #4187c9;  
+}

@@ -1,0 +1,33 @@
+#caixa {
+    width: 40%;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    /* 
+        1 - Movimenta a sombra para Esquerda com negativo direita positivo
+        2 - Movimenta a sombra para cima com negativo direita positivo para baixo
+        3 - Sombreamento ou borrado de fora para dentro
+        4 - Espalhamento sombra da caixa
+                  1    2    3    4
+    */
+    box-shadow: 20px 10px 16px 15px black;
+}
+
+#caixa h1 {
+    color: white;
+    /*           1    2     3
+    text-shadow: 0px 12px black;
+
+    /*
+    1 - Movimenta a sombra para Esquerda com negativo direita positivo
+    2 - Movimenta a sombra possitivo para cima negativo para baixo
+    3 - Escolhe a cor
+    */   
+
+    /*Desta forma escolhemos uma cor com opacidade*/
+    text-shadow: 0px 12px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
