@@ -7,7 +7,17 @@
     background: linear-gradient(to top, red, green);
     background: linear-gradient(100deg, red, green, yellow);
     */
-    background: radial-gradient(red, green, yellow);
+    -webkit-background: radial-gradient(red, green, yellow);
+    -moz-background: radial-gradient(red, green, yellow);
+    -o-background: radial-gradient(red, green, yellow);
+    background: radial-gradient(red, green, yellow,red, orange);
+
+
+}
+
+#caixa p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 
 }
 

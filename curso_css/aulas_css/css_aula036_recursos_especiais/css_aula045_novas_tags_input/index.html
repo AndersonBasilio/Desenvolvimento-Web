@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Novas Tags de Input</title>
+</head>
+<body>
+    
+    <form action="">
+
+        <!--Novos Inputs e atributos HTML 5-->
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" required autofocus>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" required="required">
+        <br><br>
+
+        <label for="numero">Numero: </label>
+        <input type="number" id="numero" min="1" max="20" step="5">
+        <br><br>
+
+        <!--URL-->
+        <label for="url">Url: </label>
+        <input type="url" name="url" id="url" placeholder="ex: http://">
+        <br><br>
+
+        <!--Pesquisa-->
+        <label for="pesquisa">Pesquisa: </label>
+        <input type="search" id="pesquisa">
+        <br><br>
+
+        <!--Range só funcionar em navegadores mais mordernos -->
+        <label for="range">Range: </label>
+        <input type="range" id="range" min="1" max="20" value="10">
+        <br><br>
+
+        <!-- Data -->
+        <label for="data">Data: </label>
+        <input type="date" id="data">
+        <br><br>
+
+        <!--Cores-->
+        <label for="color">Cor</label>
+        <input type="color" id="color">
+        <br><br>
+
+        <input type="submit" name="" value="Enviar">
+
+
+    </form>
+
+</body>
+</html>

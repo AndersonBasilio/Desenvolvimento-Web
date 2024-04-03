@@ -1,0 +1,101 @@
+
+/*Para criar uma animação*/
+/*Recomendado utilizar os prefixos*/
+@-moz-keyframes animacao_caixa {
+    from {/*Estado Inicial*/
+        background: rgb(84, 119, 13);
+        border-radius: 0px;
+    }
+    to {/*Estado Final*/
+        background: rgb(230, 230, 9);
+        border-radius: 300px;
+    }
+}
+
+@-webkit-keyframes animacao_caixa {
+    from {/*Estado Inicial*/
+        background: rgb(84, 119, 13);
+        border-radius: 0px;
+    }
+    to {/*Estado Final*/
+        background: rgb(230, 230, 9);
+        border-radius: 300px;
+    }
+}
+
+@-o-keyframes animacao_caixa {
+    from {/*Estado Inicial*/
+        background: rgb(84, 119, 13);
+        border-radius: 0px;
+    }
+    to {/*Estado Final*/
+        background: rgb(230, 230, 9);
+        border-radius: 300px;
+    }
+}
+
+@keyframes animacao_caixa {
+    from {/*Estado Inicial*/
+        background: rgb(84, 119, 13);
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {/*Estado Final*/
+        background: rgb(230, 230, 9);
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: rgb(84, 119, 13);
+    position: relative;
+    /*Para utilizar a animação temos que usar as propriedades*/
+    animation-name: animacao_caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+    /*Navegador Opera*/
+    -o-animation-name: animacao_caixa;
+    -o-animation-duration: 5s;
+    -o-animation-delay: 3s;
+    -o-animation-iteration-count: 2;
+    -o-animation-direction: alternate;
+
+    /*Navegador Mozila*/
+    -moz-animation-name: animacao_caixa;
+    -moz-animation-duration: 5s;
+    -moz-animation-delay: 3s;
+    -moz-animation-iteration-count: 2;
+    -moz-animation-direction: alternate;
+
+    /*Navegador Chrome*/
+    -webkit-animation-name: animacao_caixa;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-direction: alternate;
+
+    /*Dessa forma podemos colocar na mesma linha*/
+    /* 
+       1 - Definição do nome
+       2 - Definição da duração
+       3 - Difinição do delay
+       4 - Duração da iteração
+       5 - Definição da direção
+                 1           2   3 4    5 
+    */
+    /*Desta forma fica mais facil para colocar em todas as propriedades para todos os navegadores.*/
+    animation: animacao_caixa 5s 3s 2 alternate;
+    -webkit-animation: animacao_caixa 5s 3s 2 alternate;
+    -o-animation: animacao_caixa 5s 3s 2 alternate;
+    -moz-animation: animacao_caixa 5s 3s 2 alternate;
+}
+

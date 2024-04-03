@@ -1,0 +1,29 @@
+body {
+    background: rgba(128, 211, 4, 0.918) url(imagem/rua.jpg) repeat-x;
+}
+
+@keyframes animacao_carro {
+    0% {/*Estado Inicial*/
+        top: 0;
+        left: 0;
+        
+    }
+    100% {/*Estado Final*/
+        left: 1600px;
+    }
+}
+
+.imagem{
+    width: 200px;
+}
+
+#carro{
+    width: 200px;
+    padding-top: 320px;
+    animation-name: animacao_carro ;
+    position: relative;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+       
+}

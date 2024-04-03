@@ -19,13 +19,12 @@
     /*           1    2     3
     text-shadow: 0px 12px black;
 
-    /*
     1 - Movimenta a sombra para Esquerda com negativo direita positivo
-    2 - Movimenta a sombra possitivo para cima negativo para baixo
+    2 - Movimenta a sombra positivo para cima negativo para baixo
     3 - Escolhe a cor
-    */   
+       
 
-    /*Desta forma escolhemos uma cor com opacidade*/
+    Desta forma escolhemos uma cor com opacidade*/
     text-shadow: 0px 12px 5px rgba(0, 0, 0, 0.5);
 
 

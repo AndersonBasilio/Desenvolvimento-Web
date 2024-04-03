@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+
+    /*
+        row | row-reverse | column | column-reverse
+    */
+    flex-direction: row;
+
+    /* nowrap -> Mantem o padrão
+    | wrap -> Define uma quebra de linha ou seja ajustam na area
+    | wrap-reverse -> Muda a ordem
+    */
+    flex-wrap: nowrap;
+
+    /*
+    flex-start -> Ajustado pelo padrão ira ficar alinhado no canto superior esquerdo.
+    flex-end -> Será ajustado no canto superior direito.
+    center -> Será alinhado ao centro.
+    space-between -> Terá um espaço entre os conteudos, sem importar a quantidade de itens.
+    space-around -> Espaço será nas laterais nas estremidades sem importar a quantidade de itens.
+    */
+    /*justify-content -> Alinha os elementos na horizontal*/
+    justify-content: space-around;
+
+    /*
+    strecth -> Opção padrão os itens irá preencher toda area.
+    center -> Irá ficar centralizados e bem distruibuidos.
+    flex-start -> Itens irão ficar colados na parte superior
+    flex-end -> Itens irão ficar colados na parte inferior
+    baseline -> Itens serão alinhados baseado na linha base na linha base do texto. 
+    */
+    align-items: baseline;
+
+
+
+}
+
+.item {
+
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    
+}
