@@ -1,0 +1,9 @@
+body {
+    margin-bottom: 200px;
+    padding: 16px;
+    background: rgb(0, 140, 255);
+}
+
+#caixa {
+    border: 1px solid red;  
+}

@@ -1,5 +1,5 @@
 body {
-    background: rgba(128, 211, 4, 0.918) url(imagem/rua.jpg) repeat-x;
+    background: rgba(128, 211, 4, 0.918) url(imagem/cenario.jpg) repeat-x;
 }
 
 @keyframes animacao_carro {
@@ -14,12 +14,11 @@ body {
 }
 
 .imagem{
-    width: 200px;
+    width: 300px;
 }
 
 #carro{
-    width: 200px;
-    padding-top: 320px;
+    padding-top: 290px;
     animation-name: animacao_carro ;
     position: relative;
     animation-duration: 10s;

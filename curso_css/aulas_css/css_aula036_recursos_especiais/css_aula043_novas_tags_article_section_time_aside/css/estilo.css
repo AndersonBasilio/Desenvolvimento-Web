@@ -10,7 +10,6 @@ header {
 
 nav {
     border: 1px solid green;
-    background: #f2f2f2;
     padding: 10px;
     margin: 3px;
     background: green;
@@ -24,8 +23,7 @@ article {
     border: 2px dotted white;
 }
 
-section{
-    background: orange;
+section{  
     border: 2px dotted white;
     padding: 4px;
 }

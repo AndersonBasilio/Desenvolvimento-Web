@@ -1,0 +1,13 @@
+body {
+    margin-bottom: 200px;
+    padding-left: 20px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+#classe_altura  {
+    height: 310px;
+    border: 1px solid black;
+}
+
