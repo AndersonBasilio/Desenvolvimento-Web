@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS Customizado-->
+    <link rel="stylesheet" href="css/estilo/estilo.css">
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <title>Bootstrap - Alerta e Barra de Progresso</title>
+</head>
+<body>
+    <div id="container" class="bg-info">
+        <h1>Alerta e Barra de Progresso</h1>
+        <br>
+        <br>
+
+        <h2 class="ml-3">Alertas</h2>
+        <div class="ml-3 mr-3  alert alert-primary">
+            <strong>Primary</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-secondary">
+            <strong>Secondary</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-success">
+            <strong>Success</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-danger">
+            <strong>Danger</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-warning">
+            <strong>Warning</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-info">
+            <strong>Info</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-light">
+            <strong>Light</strong> você tem uma postagem pendente!
+        </div>
+        <div class="ml-3 mr-3  alert alert-dark">
+            <strong>Dark</strong> você tem uma postagem pendente!
+        </div>
+
+        <br>
+        <br>
+
+        <h2  class="ml-3">Alerta com Botão Fechar</h2>
+        <div class="ml-3 mr-3 alert alert-success alert-dismissible">
+            <button class="close" type="button" data-dismiss="alert">
+                &times;
+            </button>
+            <strong>Fechar</strong> Alerta Com Botão Fechar            
+        </div>
+
+        <br>
+        <br> 
+
+        <h2 class="ml-3">Alertas com mais conteúdos</h2>
+        <div class="border ml-3 mr-3 alert alert-success">
+            <h4 class="ml-3 mt-2 text-warning">Título</h4>
+            <p class="text-monospace ml-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi sunt sint suscipit tempora neque nisi molestiae voluptatem qui provident officia, molestias dolorem maxime commodi doloremque enim voluptate harum! Illo, possimus!
+            </p>
+            <hr>
+            <p class="text-monospace ml-3 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nemo aliquid nobis ad, minus delectus dignissimos autem inventore facilis neque praesentium doloremque ducimus animi necessitatibus pariatur ex corporis! Atque, aspernatur!
+
+            </p>
+        </div>
+        <br>
+        <br>
+
+        <h2 class="ml-3">Barra de Progresso</h2>
+        <div class="progress ml-3 mr-3">
+            <div class="progress-bar" style="width: 45%">45%</div>
+        </div>
+        <br>
+        <div class="progress ml-3 mr-3">
+            <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+        <br>
+        <br>
+
+        <h2 class="ml-3">Altura</h2>
+        <div class="progress ml-3 mr-3" style="height: 3px;">
+            <div class="progress-bar w-25" style="width: 25%;"></div>
+        </div>
+
+        <br>
+        <br>
+
+        <h2 class="ml-3">Listrado</h2>
+        <div class="progress ml-3 mr-3" style="height: 20px;">
+            <div class="progress-bar progress-bar-striped" style="width: 70%;">70%</div>
+        </div>
+        <br>
+        <br>
+
+        <h2 class="ml-3">Listrado e Animado</h2>
+
+        <div class="progress ml-3 mr-3" style="height: 20px;">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 70%;">70%</div>
+        </div>
+        <br>
+        <br>
+
+        <h2 class="ml-3">Múltiplas Barras</h2>
+        <div class="progress ml-3 mr-3">
+            <div class="progress-bar bg-success" style="width: 20%">Painel Principal (20% de 30)</div>
+            <div class="progress-bar bg-danger" style="width: 30%">Fotos (30% de 30)</div>
+            <div class="progress-bar bg-warning" style="width: 20%">Configurações (15% de 100)</div>
+        </div>
+        <br>
+        <br>
+
+
+    </div>
+
+
+
+    <!--Colocar o Javascript ao final dos conteudos-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    
+    <!--Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script><!--Desta forma utilizamos direto da pasta do projeto-->
+
+   <!--Option 2: Separate Popper and Bootstrap JS -->    
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+    <!-- Adicionando Esse trecho de código conseguimos colocar o path no input do Custom file input -->
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <script>
+            $(document).ready(function () {
+            bsCustomFileInput.init()
+        })
+    </script>
+    
+    
+</body>
+</html>

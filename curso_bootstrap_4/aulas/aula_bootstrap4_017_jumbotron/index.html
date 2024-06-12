@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/estilo/estilo.css">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <title>Bootstrap - Jumbotron</title>
+</head>
+<body>
+    <div id="container" class="bg-dark"><!--Inicio div Container-->
+        <h1 class="text-light">Jumbotron</h1>
+        <br>
+        <div class="ml-2 mr-2 jumbotron"><!--Inicio da div Jumbotron-->
+            <div class="container"><!--Inicio container-->
+                <h2 class="display-4">Música para todos.</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat excepturi voluptatem a nesciunt totam maxime assumenda magnam, facere ullam molestias adipisci iusto odit dolores saepe rerum voluptates architecto veritatis.
+            </p>
+            <hr>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+
+            <a class="btn btn-success btn-lg" href="">Leia Mais</a>
+            </div><!--Fim container-->
+        </div><!--Fim da div Jumbotron-->
+        <br>
+        <br>
+
+        <h2 class="ml-2 text-white">Estrutura para imagens</h2>
+        <div class="m-2 media">
+            <img class="ml-2 mb-2 mr-2" src="imagens/the_doors_morrison_hotel.jpg" width="120px" alt="">
+            <div class="bg-success media-body">
+                <h5>Título do Conteúdo</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam optio sed ut enim magnam repellendus aut. Voluptatem sequi vitae provident neque veritatis, est temporibus. Consequuntur pariatur sint aliquam! Quos.
+                </p>
+            </div>
+        </div>
+
+        <div class="m-2 media">
+            <img class="ml-2 mb-1 mr-2" src="imagens/metallica_ride_the_ligthing.jpg" width="120px" alt="">
+            <div class="bg-primary media-body">
+                <h5>Título do Conteúdo</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam optio sed ut enim magnam repellendus aut. Voluptatem sequi vitae provident neque veritatis, est temporibus. Consequuntur pariatur sint aliquam! Quos.
+                </p>
+            </div>
+        </div>
+
+        <div class="m-2 media">
+            <img class="ml-2 mb-2 mr-2" src="imagens/queen_a_ night _at _the_opera.jpg" width="120px" alt="">
+            <div class="bg-white media-body">
+                <h5>Título do Conteúdo</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam optio sed ut enim magnam repellendus aut. Voluptatem sequi vitae provident neque veritatis, est temporibus. Consequuntur pariatur sint aliquam! Quos.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <h2 class="ml-2 text-white">Alinhamentos: align-self-ALINHAMENTO (start, center, end)</h2>
+        <div class="m-2 media">
+            <img class="ml-2 mb-2 mr-2 align-self-center" src="imagens/queen_a_ night _at _the_opera.jpg" width="120px" alt="">
+            <div class="bg-light media-body text-info">
+                <h5>Título do Conteúdo</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam optio sed ut enim magnam repellendus aut. Voluptatem sequi vitae provident neque veritatis, est temporibus. Consequuntur pariatur sint aliquam! Quos. 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ullam expedita id libero unde voluptates amet exercitationem quia, assumenda illum, eveniet eligendi, necessitatibus optio similique in minus accusamus dignissimos quos.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="ml-2 text-white">Lista com Imagens</h2>
+        <div>
+            
+
+        </div>
+        <ul class="list-unstyled ml-2 mr-2 bg-light " >
+            <li class="media border-bottom pb-2">
+                <img class="mr-2" src="imagens/metallica_ride_the_ligthing.jpg" width="120px" alt="">
+                <div class="media-body">
+                    <h5>Título de Conteúdo</h5>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sunt, excepturi amet facere, reiciendis hic vel alias quas, commodi doloribus perferendis quis sit odio ullam eligendi est qui quaerat non.
+                    </p>
+                </div>
+            </li>
+
+            <li class="media border-bottom pb-2 pt-2">
+                <img class="mr-2" src="imagens/the_doors_morrison_hotel.jpg" width="120px" alt="">
+                <div class="media-body">
+                    <h5>Título de Conteúdo</h5>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sunt, excepturi amet facere, reiciendis hic vel alias quas, commodi doloribus perferendis quis sit odio ullam eligendi est qui quaerat non.
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+
+        <br>
+        <br>
+
+    </div><!--Fim div Container-->
+
+
+
+
+
+
+
+    <!--Colocar o Javascript ao final dos conteudos-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    
+    <!--Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script><!--Desta forma utilizamos direto da pasta do projeto-->
+
+   <!--Option 2: Separate Popper and Bootstrap JS -->    
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+    <!-- Adicionando Esse trecho de código conseguimos colocar o path no input do Custom file input -->
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <script>
+            $(document).ready(function () {
+            bsCustomFileInput.init()
+        })
+    </script>
+
+
+
+    
+</body>
+</html>

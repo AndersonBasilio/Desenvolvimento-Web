@@ -1,0 +1,21 @@
+body {
+    padding-top: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    
+
+}
+
+#container {
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#container h1{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#container h3{
+    text-align: center;
+}
