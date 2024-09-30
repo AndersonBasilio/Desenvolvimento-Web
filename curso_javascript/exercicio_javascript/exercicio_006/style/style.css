@@ -1,0 +1,97 @@
+body{
+    background: rgba(0, 0, 0, 0.938);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+h1 {
+    color: purple;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+input {
+    height: 38px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 40%;
+    border: none;
+    background-color: rgba(102, 99, 99, 0.658);
+    outline: none;
+    color: rgba(202, 198, 198, 0.788);
+    
+}
+
+button {
+    height: 40px;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 22px;
+    font-size: 18px;
+    border: none;
+    background: purple;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px white;
+    
+}
+
+button:hover{
+    background: white;
+    color: purple;
+    transition: 0.5s;
+
+}
+
+#tarefa{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#listar-tarefas{
+    color: white;
+    width: 450px;
+    margin: 80px auto;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 8px 18px rgba(255, 255, 255, 0.212);
+    border: none;
+    
+}
+
+#listar-tarefas h3{
+    text-align: center;
+    color: rgb(137, 54, 214);
+}
+
+ul li{  
+    list-style: none;
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+li {
+    background-color: aliceblue;
+    color: rgba(27, 27, 27, 0.877);
+    width: 360px;
+    border-radius: 5px;
+    height: 55px;
+    font-weight: bold;
+ 
+    
+}
+
+.apagar, .fazer {
+    padding-right: 5px;
+    cursor: pointer;
+    float: right;
+    
+}

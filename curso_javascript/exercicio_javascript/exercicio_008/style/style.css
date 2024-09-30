@@ -1,0 +1,38 @@
+h1 {
+    font-size: 52px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+#calcular-media {
+    
+    width: 200px;
+    height: 90px;
+    margin-left: 25px;
+    font-size: 26px;
+    background: #ce207c;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.centralizar {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#calcular-media:hover {
+    background: #7c0b48;
+    transition: 0.8s;
+    
+}
+
+#resposta {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    
+}

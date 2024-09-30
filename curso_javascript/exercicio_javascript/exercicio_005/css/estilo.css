@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+button{
+    background: rgb(0, 162, 255);
+    color: white;
+    border: 1px solid rgb(0, 162, 255);
+    box-shadow: 12px 10px 12px black;
+    width: 220px;
+    height: 120px;
+    font-size: 18px;
+    border-radius: 9px;
+    
+}
+
+.caixa {
+    margin-left: 20px;
+}
+
+.resposta {
+    width: 500px;
+    height: 35px;
+    margin-top: 40px;
+    color: orange;
+    border: 1px solid orange;
+    box-shadow: 12px 10px 12px black;
+    
+}
+
+.centraliza {
+    margin-left: 100px;
+}
+
+#texto {
+    margin-left: 6px;
+    margin-top: 3px;
+}
