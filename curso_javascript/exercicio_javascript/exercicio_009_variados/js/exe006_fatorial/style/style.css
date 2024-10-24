@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    background-image: linear-gradient(to right, rgb(240, 178, 62), rgb(252, 252, 76));
+}
+
+header {
+    text-align: center;
+    font-size: 32px;
+    color: orangered;
+}
+
+.exibir_fatorial {
+    text-align: center;
+    box-shadow: 10px 8px 12px 10px ;
+    height: 80px;
+    width: 452px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 35px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: orangered;
+}
+
+input{
+    height: 27px;
+    width: 50px;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+button{
+    height: 35px;
+    margin-top: 8px;
+    width: 120px;
+    color:orangered;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(231, 76, 76, 0.63), rgba(245, 245, 9, 0.993));
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgba(235, 235, 22, 0.932),rgba(230, 12, 12, 0.63));
+}
