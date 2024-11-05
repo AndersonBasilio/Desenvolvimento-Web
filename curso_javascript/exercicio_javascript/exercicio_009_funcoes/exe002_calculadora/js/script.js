@@ -47,7 +47,6 @@ function main(){
     alert(numero1 + ' ' + operador + ' ' +  numero2 + ' = ' + resultadoOperacao)
 }
 
-
 function obterNumero(mensagem){
     let numero;
     do {
