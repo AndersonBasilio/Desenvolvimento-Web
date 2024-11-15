@@ -1,0 +1,7 @@
+a{
+    color:rebeccapurple;
+}
+
+a[href="https://facebook.com"]{ /* Representa um atributo especifico.*/
+    color:red;
+}

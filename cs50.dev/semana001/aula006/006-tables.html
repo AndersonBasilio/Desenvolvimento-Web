@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse ;
+            width: 550px;
+           
+            
+        }
+
+        td, th{ 
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .corTh{
+            background-color: aqua;
+            color: black;
+            height: 30px;
+        }
+
+        .corTd{
+            background-color: brown;
+            height: 30px;
+
+        }
+        
+        .corTd2{
+            background-color: greenyellow;
+            height: 30px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="corTh">Ocean</th>
+                <th class="corTh">Average Depth</th>
+                <th class="corTh">Maximun Depth</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="corTd">Pacifc Ocean</td>
+                <td class="corTd">4,280 m</td>
+                <td class="corTd">10,911 m</td>
+            </tr>
+            <tr>
+                <td class="corTd2">Atlantic Ocean</td>
+                <td class="corTd2">3,646 m</td>
+                <td class="corTd2">8,486 m</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

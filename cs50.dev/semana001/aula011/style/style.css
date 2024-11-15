@@ -1,0 +1,3 @@
+ul > li { /*Diz que somente onde estiver um li*/
+    color: blue; 
+ }
