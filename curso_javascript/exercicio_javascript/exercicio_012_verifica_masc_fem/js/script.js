@@ -10,6 +10,7 @@ function main(){
 
 // Função para obter informação do usuário.
 function obterinformacao(){
+    let sexo;
     do{
         sexo = prompt('Informe seu sexo [F] para Feminino e [M] para Masculino: ').toLowerCase();
         if(sexo.length > 1){
@@ -18,6 +19,7 @@ function obterinformacao(){
             alert('Sexo informado é invalido.');
         }
     }while(sexo.length > 1 || (sexo !== 'm' && sexo !== 'f'));
+    return sexo;
 }
 
 // Função para verificar a informação.
