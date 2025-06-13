@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizar JS no HTML</title>
+
+    <!-- Não é uma boa pratica de programação. -->
+    <!-- Dessa forma irá retarda o carregamento da pagina -->
+     <script>
+        // Um comentário
+        console.log('Arquivo interno');
+     </script>
+
+</head>
+<body>
+    
+    <!-- Dessa forma colocando no final do body o carregamento é mais rapido.-->
+     <!-- Carregamento do arquivo externo. -->
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
