@@ -7,7 +7,7 @@
     <=  -> Menor ou igual
     ==  -> Igualdade (Checa valor) ( De atribuição) - Não usamos
     === -> Igualdade restrita (Checa valor e tipo)
-    !=  -> Diferente (Checa valor)
+    !=  -> Diferente (Checa valor) - Não usamos
     !== -> Diferente Restrito (Checa valor e tipo)
 
 
