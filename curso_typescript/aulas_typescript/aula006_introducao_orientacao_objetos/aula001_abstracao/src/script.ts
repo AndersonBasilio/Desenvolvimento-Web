@@ -2,13 +2,7 @@
 class ContaBancaria {
     //Características
     //agência
-    agencia: number;
-    //numeroConta
-    numeroConta:string;
-    //saldo
-    saldo:number;
-    //limite
-    limite:number;
+   
 
     constructor(){
         this.agencia = 1075;
@@ -24,7 +18,7 @@ class ContaBancaria {
     sacar(valorSaque: number): string{
         if(valorSaque <= this.saldo + this.limite){
             this.saldo -= valorSaque;
-            return `Saque de R$${valorSaque} realizado com sucesso.`
+            return `Saque de R$${valorSaque},00 realizado com sucesso.`
         }else{
             return `Saldo insuficiente.`;
         }
@@ -35,7 +29,6 @@ class ContaBancaria {
 
     exibirDetalhes(): string  {
         return `Agência: ${this.agencia}<br> Conta: ${this.numeroConta}<br>Saldo: ${this.saldo}<br>Limite: ${this.limite}`;
-
     }
 }
 
@@ -48,5 +41,5 @@ document.write(minhaConta.sacar(100) + '<br>');
 document.write(minhaConta.consultarSaldo() + '<br>');
 
 //Conta Itaú
-document.write('<br><h2>Conta Itaú.</h2><br>')
-document.write(minhaContaItau.consultarSaldo())
+document.write('<br><h2>Conta Itaú.</h2><br>');
+document.write(minhaContaItau.consultarSaldo());

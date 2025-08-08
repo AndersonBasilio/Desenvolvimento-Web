@@ -32,6 +32,22 @@ let parOuImpar = (numero:number) =>{
     }
 }*/
 
-let parOuImpar = (numero:number) => numero % 2  === 0 ?  `${numero} PAR` : `${numero}  IMPAR`;// Retorno Implícito.
+function obterNumero():number{
+    let numero: number;
+    do{
+        const entrada = prompt('Digite um número: ');
+        numero = Number(entrada);
+        if(isNaN(numero)){
+            alert('Por favor digite um número.');
+        }
+    }while(isNaN(numero));
+    return numero;
+}
 
-document.write(parOuImpar(21));
+function verificaNumero(){
+    const numero = obterNumero()
+    const parOuImpar = (numero:number) => numero % 2  === 0 ?  `${numero} PAR.` : `${numero}  IMPAR.`;// Retorno Implícito.
+    document.write(parOuImpar(numero));
+}
+
+verificaNumero();

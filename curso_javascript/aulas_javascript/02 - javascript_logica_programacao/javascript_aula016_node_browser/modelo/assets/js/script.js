@@ -13,16 +13,24 @@
 // }
 
 function recebeParagrafos(){
+    // Selecionando a o paragrafo
     const tagParagrafo = document.querySelector('.p');
+    
+    // Selecionando todos paragrafos.
     const selecionaParagrafos = document.querySelectorAll('p');
 
+    // Retorna um array com a tagParagrafo e SelecionaParagrafos.
     return [ tagParagrafo, selecionaParagrafos ];
 }
 
 function estilizarParagrafos(paragrafos){
+    // Pega os documentos que esta no documento body.
     const estilosBody = getComputedStyle(document.body);
+    
+    // Adicionando um background da cor do background da página.
     const backgroundColorBody = estilosBody.backgroundColor; 
 
+    // Pecorrendo todos os paragrafos e mudando o background e a cor da font.
     for(let tagP of paragrafos){
         tagP.style.backgroundColor = backgroundColorBody;
         tagP.style.color = 'white'

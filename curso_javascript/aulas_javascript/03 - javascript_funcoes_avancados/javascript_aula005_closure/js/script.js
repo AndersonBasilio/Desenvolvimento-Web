@@ -10,7 +10,7 @@ function retornaFuncao(nome){
     };
 }
 
-// Mudando o contexto lexico, chamamos de closure sempre que chamamos a função sera os nomes do parametro.
+// Mudando o contexto léxico, chamamos de closure sempre que chamamos a função sera os nomes do parametro.
 const funcao = retornaFuncao('James');
 const funcao2 = retornaFuncao('Hetfield');
 

@@ -13,7 +13,7 @@ class ContaBancaria {
     sacar(valorSaque) {
         if (valorSaque <= this.saldo + this.limite) {
             this.saldo -= valorSaque;
-            return `Saque de R$${valorSaque} realizado com sucesso.`;
+            return `Saque de R$${valorSaque},00 realizado com sucesso.`;
         }
         else {
             return `Saldo insuficiente.`;

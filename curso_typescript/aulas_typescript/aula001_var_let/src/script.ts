@@ -2,7 +2,6 @@
 
 var serie = 'Friends'
 function x(){
-
     console.log(serie);
 
     if(true){

@@ -35,6 +35,8 @@ let num1 = 144;
 //Em JS podemos dividir um número por ZERO
 //console.log(10 / 0); Ifinity(DADO NUMERICO) significa que o número é infinito, avaliado como true.
 console.log(100 / 0); 
+let umastring = "Um \"texto\" ";
+console.log(umastring ); 
   
 
 
