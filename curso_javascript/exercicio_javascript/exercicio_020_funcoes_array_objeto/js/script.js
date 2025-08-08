@@ -32,7 +32,6 @@ function meuEscopo(){
     //    console.log('Foi enviado.')
     //};
 
-
     function recebeEventoForm(evento){
         evento.preventDefault();
 
@@ -50,13 +49,11 @@ function meuEscopo(){
         });
         
         console.log(pessoas)
-        resultado.innerHTML += `<p><strong>Nome:</strong> ${nome.value}  <strong>Sobrenome:</strong> ${sobrenome.value} <strong>Peso: </strong> ${peso.value} <strong>Altura:</strong> ${altura.value} </p>`;
+        resultado.innerHTML += `<p><strong>Nome:</strong> ${nome.value} <br> <strong>Sobrenome:</strong> ${sobrenome.value}<br> <strong>Peso: </strong> ${peso.value}<br><strong>Altura:</strong> ${altura.value} </p>`;
     }
    
     //Utilizando recurso mais moderno
-    form.addEventListener('submit', recebeEventoForm);
-
-    
+    form.addEventListener('submit', recebeEventoForm);  
 }
 
 meuEscopo();

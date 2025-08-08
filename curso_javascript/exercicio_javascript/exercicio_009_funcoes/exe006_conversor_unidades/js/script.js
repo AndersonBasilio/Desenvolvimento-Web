@@ -11,8 +11,7 @@ function main(){
     let unidade = obterUnidade();
     let unidadeParaConverter = obterUnidadeDeConversao();
     let valorConvertido = converterDados(numero, unidade, unidadeParaConverter);
-    exibirResultado(numero, unidade, valorConvertido, unidadeParaConverter);
-    
+    exibirResultado(numero, unidade, valorConvertido, unidadeParaConverter);    
 }
 
 // Obter unidades para serem convertidas.
@@ -23,7 +22,6 @@ function obterValorNumerico(){
         if(isNaN(valorNumerico)){
             alert('Informe um valor válido, por favor!');
         }
-
     } while(isNaN(valorNumerico));
     return valorNumerico;
 }
@@ -38,7 +36,6 @@ function obterUnidade(){
         }
     }while(unidade !== 'km' && unidade !== 'm' && unidade !== 'cm' && unidade !== 'mm');
     return unidade;
-
 }
 
 // Função Para Obter unidade para converter
@@ -67,9 +64,8 @@ function converterDados(valor, unidadeOrigem, unidadeDestino){
 
 //Função irá imprimir as informações 
 function exibirResultado(valorOriginal, unidadeOrigem, valorConvertido, unidadeDestino){
-    alert(`Valor informado: ${valorOriginal}${unidadeOrigem}.\nValor convertido: ${valorConvertido}${unidadeDestino}.` )
+    alert(`Valor informado: ${valorOriginal}${unidadeOrigem}.\nValor convertido: ${valorConvertido}${unidadeDestino}.`);
 }
 
-
 //Chamando a função main
-main()
+main();

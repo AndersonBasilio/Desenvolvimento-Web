@@ -3,16 +3,18 @@
 */
 
 function main(){
+    let resposta = document.querySelector('.resultado');
     let [primeiroNumero, segundoNumero] = obterNumeros();
     let maior =  confereNumeros(primeiroNumero, segundoNumero);
-    document.write(`Maior número digitado foi ${maior}.`)
+
+    resposta.innerHTML += `Maior número digitado foi ${maior}.`
 }
 
 function obterNumeros(){
     let primeiroNumero;
     let segundoNumero;
     do {
-        primeiroNumero = Number(prompt("Informe o primeiro número: "));
+        primeiroNumero = Number(prompt('Informe o primeiro número: '));
         segundoNumero = Number(prompt('Informe o segundo número: '));
         if((isNaN(primeiroNumero) || isNaN(segundoNumero)) || primeiroNumero === 0 || segundoNumero  === 0 || primeiroNumero === segundoNumero){
             alert('Informe os valores corretamente, não podendo ser iguais ou zero.');
