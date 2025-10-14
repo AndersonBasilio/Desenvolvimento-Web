@@ -1,0 +1,80 @@
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, #8aa1b4, #b79780);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+img {
+    box-shadow: 5px 5px 12px 10px #4b4e45;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;   
+}
+
+#informacoes-faixas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+#capitulo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#play-pause,
+#anterior,
+#proximo, 
+#pause {
+  cursor: pointer;
+  color: #424240
+}
+
+#anterior,
+#proximo {
+  width: 100px;
+  color:#424240;
+}
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-botoes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} 
+
+#pause {
+  display: none;
+}
+
+.tocando #play {
+  display: none;
+}
+
+.tocando #pause {
+  display: block;
+}
+
+#play-pause {
+  width: 80px;
+}
+
+.pause {
+  display: none;
+}
