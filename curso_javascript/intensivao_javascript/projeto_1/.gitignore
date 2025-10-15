@@ -1,0 +1,14 @@
+# =========================
+# Arquivos de áudio
+# =========================
+/assets/audios/
+*.mp3
+
+# =========================
+# Imagens e capas temporárias
+# =========================
+/assets/img/*.tmp
+*.jpg
+*.jpeg
+*.png
+*.gif
