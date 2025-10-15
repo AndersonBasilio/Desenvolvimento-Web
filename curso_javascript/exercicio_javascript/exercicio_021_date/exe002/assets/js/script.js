@@ -45,7 +45,7 @@ function formataHora(){
 function main(){
     const dataFormatadaBr = formatarData(capturaData());
     const horaBrasil = formataHora();
-    console.log(`Hoje são ${dataFormatadaBr} e as horas ${horaBrasil} `);
+    console.log(`Hoje são ${dataFormatadaBr} e as horas são ${horaBrasil} `);
 }
 
 main();
