@@ -1,0 +1,25 @@
+🔹 Exercícios com Objetos e Métodos
+
+Crie um objeto carro com propriedades marca, modelo e ano. Depois, faça um método que mostre todas as informações no console.
+
+Crie um objeto pessoa com nome, idade e profissão. Adicione um método que aumente a idade da pessoa em 1 ano.
+
+Crie um objeto loja com um array de produtos (cada produto tem nome e preço). Faça um método que mostre todos os produtos com seus preços.
+
+Ainda no objeto loja, adicione um método que receba o nome de um produto e retorne apenas esse produto.
+
+Crie um objeto biblioteca com livros (igual você já fez). Agora adicione um método removerLivro(titulo) que exclui um livro do array.
+
+🔹 Exercícios com Loops
+
+Crie um array de números e use um for para mostrar apenas os números pares.
+
+Crie um array de nomes e use um for para mostrar apenas os nomes que começam com a letra "A".
+
+Crie um array de objetos representando alunos (com nome e nota). Use um for para mostrar apenas os alunos com nota maior ou igual a 7.
+
+🔹 Exercícios mistos (Objeto + Loop)
+
+Crie um objeto turma que tenha uma propriedade alunos (um array de objetos com nome e idade). Depois, adicione um método listarAlunosMaioresDeIdade que mostre apenas alunos com 18 anos ou mais.
+
+Crie um objeto estoque com produtos (nome e quantidade). Adicione um método que mostre apenas os produtos que têm quantidade menor que 5 (estoque baixo).

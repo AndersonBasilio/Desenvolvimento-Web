@@ -16,7 +16,7 @@ function geraNumeroAleatorio(min, max){
     return numeroAleatorioGerado;
 }
 
-// Verifica se o numero informado pelo usuárui é igual ao numero aleatório.
+// Verifica se o numero informado pelo usuário é igual ao numero aleatório.
 function verificaNumero(numeroAleatorio, numeroEscolhido){
     if (numeroAleatorio === numeroEscolhido){
         return alert('Acertou!');

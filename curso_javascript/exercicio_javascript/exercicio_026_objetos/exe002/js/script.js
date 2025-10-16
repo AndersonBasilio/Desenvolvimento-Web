@@ -38,7 +38,7 @@ let carrinho = {
     calculaPreco(){
         let soma = 0;
         for(let i = 0; i < this.produtos.length; i++){
-            let produto = this.produtos[i]
+            let produto = this.produtos[i];
             soma += produto.preco * produto.quantidade;
         }
         console.log(`Total das compras é ${soma}`);

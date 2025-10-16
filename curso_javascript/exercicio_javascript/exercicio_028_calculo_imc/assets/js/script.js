@@ -67,11 +67,14 @@ function verificaNivelImc(imc){
 
 // Aplica estilo no paragrafo
 function aplicaEstilo(paragrafo, eValido){
-    if(eValido) {
-        paragrafo.classList.add('paragrafo-resultado');
-    } else {
-        paragrafo.classList.add('paragrafo-invalido');
-    }    
+    const paragrafoValido = eValido ? paragrafo.classList.add('paragrafo-resultado') :paragrafo.classList.add('paragrafo-invalido'); 
+    return paragrafoValido;
+
+    // if(eValido) {
+    //     paragrafo.classList.add('paragrafo-resultado');
+    // } else {
+    //     paragrafo.classList.add('paragrafo-invalido');
+    // }    
 }
 
 // Função que calcula o imc

@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+#cabecalho {
+    color:  rgb(15, 0, 0);
+    width: 410px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px rgb(5, 240, 240);
+    background-color: rgb(253, 251, 251);
+    border-radius: 5px;
+}
+
+#mostrarLivros {
+    
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
