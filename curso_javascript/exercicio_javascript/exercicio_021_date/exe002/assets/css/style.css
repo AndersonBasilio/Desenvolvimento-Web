@@ -1,0 +1,70 @@
+body {
+    
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#formulario {
+    height: 180px;
+    width: 520px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    height: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    width: 420px;
+    text-align: center;
+
+}
+
+#verificaIdade, #limpa {
+    height: 32px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight:600;
+    border-radius: 5px;
+    width: 120px;
+    color: white;
+}
+
+#limpa {
+    background: rgb(214, 63, 63);
+    
+}
+
+#limpa:hover{
+    background: white;
+    border: 1px solid rgb(214, 63, 63);
+    color: rgb(214, 63, 63);
+}
+
+#verificaIdade {
+    background-color: rgb(30, 180, 185);
+}
+
+#verificaIdade:hover {
+    background: white;
+    color: rgb(30, 180, 185);
+    border: 1px solid rgb(30, 180, 185);
+}
+
+.invalido {   
+    padding: 10px 20px;
+    background: rgb(248, 97, 97);
+}
+
+.valido {
+    padding: 10px 20px;
+    background-color: rgb(140, 233, 132);
+    
+}
+
+#mensagem {
+    padding: 10px 20px;
+    text-align: center;  
+}
