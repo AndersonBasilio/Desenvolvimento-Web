@@ -25,3 +25,6 @@ O objetivo do projeto é praticar JavaScript, HTML e CSS, além de manipulação
 * JavaScript
 
 ## Layout do projeto
+<p align="center">
+  <img src="assets/img/layout_projeto.png" alt="Layout do projeto" width="600">
+</p>
