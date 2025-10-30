@@ -102,7 +102,7 @@ function criaCalculadora(){
 
 }
 
-const calculadora= criaCalculadora();
+const calculadora = criaCalculadora();
 
 // Sempre deixar o método inicializar a calculadora.
 calculadora.inicia();
