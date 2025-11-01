@@ -23,11 +23,19 @@
 
 // Solicita Infomação.
 function solicitarInformacao() {
-    const nome = prompt('Informe seu nome: ');
-    const idade = Number(prompt('Informe sua idade: '));
-    const rendaMensal = Number(prompt('Informe a Renda Mensal: '));
-    const valorEmprestimo = Number(prompt('Informe o valor do Emprestimo: '));
+    let nome = prompt('Informe seu nome: ');
+    let idade = Number(prompt('Informe sua idade: '));
+    let rendaMensal = Number(prompt('Informe a Renda Mensal: '));
+    let valorEmprestimo = Number(prompt('Informe o valor do Emprestimo: '));
 
+    while ( nome.trim() === '' || isNaN(idade) || isNaN(rendaMensal) || isNaN(valorEmprestimo)){
+        alert('Por favor, preencha os campos corretamente!')
+        nome = prompt('Informe seu nome: ');
+        idade = Number(prompt('Informe sua idade: '));
+        rendaMensal = Number(prompt('Informe a Renda Mensal: '));
+        valorEmprestimo = Number(prompt('Informe o valor do Empréstimo: '));
+    }
+    
     return {
         nome: nome,
         idade: idade,
@@ -39,12 +47,10 @@ function solicitarInformacao() {
 // Verifica condições para aprovação.
 function verificaAprovacao(nome, idade, renda, emprestimo) {
     const condicao = renda * 10;
-    if ((idade < 21 || idade > 60) || (renda < 3000 && emprestimo > condicao)) {
-        if(idade < 21 || idade > 60) return `Emprestimo Negado, idade fora da faixa permitida`;
-        if(renda < 3000 && emprestimo > condicao) return `Emprestimo Negado, Renda Insuficiente.`
-    } else {
-        return `${nome}, emprestimo no valor de R$${emprestimo.toFixed(2)} aceito!`;
-    }
+    if(idade < 21 || idade > 60) return `Emprestimo Negado, idade fora da faixa permitida.`;
+    if(renda < 3000 && emprestimo > condicao) return `Emprestimo Negado, Renda Insuficiente.`
+
+    return `${nome}, emprestimo no valor de R$${emprestimo.toFixed(2)} aprovado com sucesso!`;
 }
 
 // Função principal.
