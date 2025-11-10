@@ -12,6 +12,8 @@ O objetivo é fortalecer conceitos fundamentais do desenvolvimento web, boas pr�
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS3" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50" alt="Bootstrap" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" alt="Typescript" />
 </p>
 
 ---
@@ -33,6 +35,14 @@ O objetivo é fortalecer conceitos fundamentais do desenvolvimento web, boas pr�
 | Em andamento | Estudos e práticas contínuas | ✅ Evoluindo |
 
 ---
+
+### 🎯 Próximos Passos (Roadmap)
+- Aprimorar responsividade com Flexbox e Grid
+- Criar componentes reaproveitáveis com JavaScript
+- Aprender versionamento avançado com Git
+- Desenvolver projetos completos para portfólio
+
+
 
 ### 🤝 Contribuições
 
