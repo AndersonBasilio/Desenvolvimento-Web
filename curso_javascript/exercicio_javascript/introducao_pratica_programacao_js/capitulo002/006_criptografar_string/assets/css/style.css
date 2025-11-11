@@ -1,0 +1,63 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+}
+
+body {
+    background: rgb(44, 196, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* remove se quiser o conteúdo no topo */
+}
+
+button {
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 170px;
+    font-size: 15px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+ 
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+#container{
+    width: 670px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    
+}
+
+#exibirString {
+    height: 40px;
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#stringDescriptografada {
+    height: 40px;
+    margin-top: 30px;
+    color: rgb(241, 236, 236);
+    margin-bottom: 12px;
+ 
+}
