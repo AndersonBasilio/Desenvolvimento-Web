@@ -1,0 +1,15 @@
+#resultado {
+    height: 400px;
+    width: 500px;
+    justify-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 18px 5px;
+    padding: 15px;
+
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
