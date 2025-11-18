@@ -42,13 +42,32 @@ class HorarioFuturo {
     // Calcular hora futura.
     calcularHoraFutura(){
         const horaCalculada =  this.horaAtual + this.horaFutura;
-        return horaCalculada % 24;
+        
+
+        return horaCalculada;
+    }
+
+    formataHora(hora24){
+        let periodo = 'AM';
+        let hora12 = hora24 % 24;
+
+        if(hora12 === 0) hora12 = 12;
+        else if(hora12 === 12) periodo = 'PM';
+        else if(hora12 > 12){
+            hora12 = hora12 - 12;
+            periodo = 'PM';
+        }
+
+        return hora12 + periodo;
     }
     
     // Mostar qual será a hora depois do avanço.
     mostrarHoraDepoisAvanco(){
-        const mostrarParaUsuario = document.querySelector('#mostrarHoraAvancada')
-        mostrarParaUsuario.innerHTML = `<h3><i>Se agora são ${this.horaAtual}h e queremos ir ${this.horaFutura}h no futuro, então o resultado deve ser ${this.calcularHoraFutura()}h.</i></h3>`;
+        const mostrarParaUsuario = document.querySelector('#mostrarHoraAvancada');
+        const horaAtualFormatada = this.formataHora(this.horaAtual);
+        const horaFuturaFormatada = this.formataHora(this.calcularHoraFutura());
+
+        mostrarParaUsuario.innerHTML = `<h3><i>Se agora são ${horaAtualFormatada} e queremos ir ${this.horaFutura}h no futuro, então o resultado deve ser ${horaFuturaFormatada}.</i></h3>`;
     }
 
     // Main
