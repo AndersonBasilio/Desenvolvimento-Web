@@ -1,0 +1,26 @@
+Documentação webpack
+    https://webpack.js.org/  
+
+Inicializar a configração:
+    npm init -y (Podemos tirar o -y, mas é muito trabalhoso não é legal utilizar espaços em pasta de projeto.)
+
+Instalar o modulo para trabalharmos com webpack
+    npm install --save-dev @babel/preset-env @babel/core @babel/cli babel-loader webpack webpack-cli regenerator-runtime core-js@2 
+
+OBS: Tirar node_module com .gitignore
+
+Criando o arquivo de configuração.
+    webpack.config.js (Na pasta raiz)
+
+    Importar path no webpack.config.js
+
+Código fonte sempre vai ficar dentro da pasta src source.
+    criar um arquivo index.js
+
+Teremos outra pasta public terá tudo que o usuário ver.
+
+Para rodar usamos npm run gera (Chamamos a função que foi escrita em package.json)
+
+
+
+    

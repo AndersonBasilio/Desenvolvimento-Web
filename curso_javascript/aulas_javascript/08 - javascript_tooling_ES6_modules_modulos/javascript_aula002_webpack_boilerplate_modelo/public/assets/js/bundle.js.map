@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;AACA;AACA;AACA;AACAA,OAAO,CAACC,GAAG,CAAC,YAAY,CAAC,C","sources":["webpack://javascript_aula002_webpack_boilerplate_modelo/./src/index.js"],"sourcesContent":["\r\n//1\r\n//2\r\n//3\r\nconsole.log('Olá Mundo!')"],"names":["console","log"],"ignoreList":[],"sourceRoot":""}
