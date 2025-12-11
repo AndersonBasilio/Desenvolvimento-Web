@@ -42,7 +42,7 @@ O objetivo é fortalecer conceitos fundamentais do desenvolvimento web, boas pr�
 - Aprender versionamento avançado com Git
 - Desenvolver projetos completos para portfólio
 
-
+---
 
 ### 🤝 Contribuições
 
