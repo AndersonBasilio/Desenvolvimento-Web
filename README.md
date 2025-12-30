@@ -1,7 +1,7 @@
 
 # 🚀 Desenvolvimento Web
 
-Repositório criado para aprimorar minhas habilidades em **HTML**, **CSS** e **JavaScript**, por meio de exercícios, aulas e projetos práticos.  
+Repositório criado para aprimorar minhas habilidades em **HTML**, **CSS**, **JavaScript**, **TypeScript**, **NodeJS** e **Bootstrap**  por meio de exercícios, aulas e projetos práticos.  
 O objetivo é fortalecer conceitos fundamentais do desenvolvimento web, boas práticas e organização de código.
 
 ---
